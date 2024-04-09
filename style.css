@@ -1,0 +1,168 @@
+/* margin y padding */
+/* borde */
+/* ancho */
+/* fondo */
+/* letra */
+/* display */
+
+body {
+/* margin y padding */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* ancho */
+    width: 100%;
+/* letra */
+    font-family: "Lato", sans-serif;
+}
+
+nav {
+/* margin y padding */
+    margin: 0;
+    padding: 8px 0px;
+/* ancho */
+    width: 100%;
+/* fondo */
+    background-color: rgb(10, 10, 35);
+/* display */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav > p {
+/* margin y padding */
+    margin: 0;
+    margin-left: 12px;
+/* letra */
+    font-size: 1.5rem;
+    color: white;
+}
+
+nav > a {
+/* margin y padding */
+    margin: 0px 12px;
+    padding: 2px 12px;
+/* borde */
+    border: 4px solid rgb(255, 173, 50);
+/* fondo */
+    background-color: rgb(255, 193, 69);
+/* letra */
+    color: rgb(10, 10, 35);
+    text-decoration: none;
+}
+
+section {
+/* margin y padding */
+    margin: 0;
+    padding: 12px 0px;
+/* ancho */
+    width: 100%;
+/* fondo */
+    background-color: rgb(0, 46, 173);
+/* letra */
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: white;
+/* display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > p {
+/* margin y padding */
+    margin: 0px 12px;
+}
+
+section > p > a {
+    color: white;
+}
+
+header {
+/* margin y padding */
+    margin: 0;
+    padding: 40px 0px;
+/* ancho */
+    width: 100%;
+/* fondo */
+    background-color: rgb(27, 27, 50);
+/* letra */
+    color: white;
+/* display */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+header > img {
+    /* margin y padding */
+    margin: 0;
+    /* borde */
+    border: 4px solid rgb(87, 87, 117);
+    /* ancho */
+    width: 150px;
+    height: 150px;
+    /* fondo */
+    object-fit: cover;
+}
+
+header > h1 {
+/* margin y padding */
+    margin: 0px 12px;
+/* letra */
+    text-align: center;
+}
+
+header > p {
+/* margin y padding */
+    margin: 0px 40px;
+/* letra */
+    text-align: center;
+}
+
+header > div {
+/* margin y padding */
+    margin: 0;
+    padding: 10px 0px;
+/* display */
+    display: flex;
+    gap: 16px;
+}
+
+main {
+/* margin y padding */
+    margin: 0;
+    padding: 40px 0px;
+/* ancho */
+    width: 100%;
+/* fondo */
+    background-color: rgb(245, 246, 247);
+/* display */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+main > div {
+/* margin y padding */
+    margin: 0px 12px;
+/* borde */
+    border: 4px solid rgb(10, 10, 35);
+/* ancho */
+    width: 80%;
+/* fondo */
+    background-color: rgb(208, 208, 213);
+/* display */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+}
+
+
