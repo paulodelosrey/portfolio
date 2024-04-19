@@ -192,6 +192,7 @@ main > details > summary {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    text-align: center;
 }
 
 main > details > summary > i {
@@ -250,14 +251,15 @@ footer > span {
     }
 }
 
-@media (max-width: 330px) {
-    main > details > summary > .fa-solid, .fa-sharp, .fa-brands, .fa-regular  {
+@media (max-width: 400px) {
+    main > details > summary > .tohide  {
         display: none;    
     }
     main > details > summary {
         display: flex;
         justify-content: center;
-        text-align: center;   
+        text-align: center;
+
     }
 }
 
